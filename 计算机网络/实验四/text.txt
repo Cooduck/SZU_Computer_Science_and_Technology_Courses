@@ -1,0 +1,5 @@
+In TCP/IP network communication, each TCP connection is uniquely identified by a four-tuple (source IP address, source port number, destination IP address, destination port number). So, in theory, multiple clients can TCP communicate to the same port on the same server, as long as each client uses a different source port number.
+
+In practice, the operating system assigns each TCP connection a unique local port number. Therefore, when multiple clients try to connect to the same port on the same server, the operating system assigns a different local port number to each client to ensure the uniqueness of the connection.
+
+In general, the TCP protocol supports multiple clients communicating with the same port on the same server.
