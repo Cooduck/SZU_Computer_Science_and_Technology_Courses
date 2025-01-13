@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\12569\Desktop\资料\szu课\计算机图形学\实验一\实验一\2022150176_简校滨_实验一\code\InitShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\12569\Desktop\资料\szu课\计算机图形学\实验一\实验一\2022150176_简校滨_实验一\code\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\12569\Desktop\资料\szu课\计算机图形学\实验一\实验一\2022150176_简校滨_实验一\code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\12569\Desktop\资料\szu课\计算机图形学\实验一\实验一\2022150176_简校滨_实验一\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5B6AA94-4A75-3D94-B113-137C8AEF582B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

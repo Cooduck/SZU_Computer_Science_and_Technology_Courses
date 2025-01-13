@@ -1,0 +1,9 @@
+python pacman.py -q -p ReflexAgent -k 1 -n 10
+
+python pacman.py -p ReflexAgent -l openClassic -k 1 -n 10
+
+python pacman.py -p ReflexAgent -k 1 -n 10
+
+python pacman.py -p ReflexAgent -l testClassic -k 1 -n 10
+
+python pacman.py -q -p AlphaBetaAgent -l smallClassic -k 1 -a depth=2 -n 10

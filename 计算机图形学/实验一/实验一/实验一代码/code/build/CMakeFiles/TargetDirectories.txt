@@ -1,0 +1,3 @@
+C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验一/2022150176_简校滨_实验一/code/build/CMakeFiles/main.dir
+C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验一/2022150176_简校滨_实验一/code/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验一/2022150176_简校滨_实验一/code/build/CMakeFiles/ZERO_CHECK.dir

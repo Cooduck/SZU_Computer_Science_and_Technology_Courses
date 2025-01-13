@@ -1,0 +1,273 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* 顶部导航栏 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    color: #f4c62b;
+}
+
+.nav-links a {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #ffcc00; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 5px 0;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4c62b;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 搜索栏 */
+.search-bar {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-btn, .advanced-search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f4c62b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.keywords {
+    margin-top: 10px;
+    color: #777;
+    font-size: 12px;
+}
+
+/* 物品栏 */
+/* 内容区 */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* 物品展示容器 */
+.items {
+    width: 1200px;           /* 限制每个 item 的宽度 */
+    display: flex;
+    flex-wrap: wrap;       /* 换行 */
+    gap: 20px;             /* 项目之间的间距 */
+    justify-content: flex-start; /* 从左到右排列 */
+}
+
+/* 每个物品项 */
+.item {
+    width: 335px;           /* 限制每个 item 的宽度 */
+    height: 335px;        /* 限制每个 item 的高度 */
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* 垂直居中对齐 */
+    justify-content: space-between; /* 等间距排列内容 */
+}
+
+/* 图片 */
+.item img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* 物品标题 */
+.item-title {
+    font-weight: bold;
+    color: #f4c62b;
+    margin: 10px 0;
+    word-wrap: break-word; /* 自动换行 */
+    overflow-wrap: break-word; /* 防止文本溢出 */
+    white-space: normal; /* 确保文本换行 */
+}
+
+/* 物品描述 */
+.item-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    word-wrap: break-word; /* 自动换行 */
+    overflow-wrap: break-word; /* 防止文本溢出 */
+    white-space: normal; /* 确保文本换行 */
+}
+
+/* 按钮 */
+.item button {
+    margin-top: 10px;
+    background-color: #f4c62b;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.item button:hover {
+    background-color: #d4a62b;
+}
+
+/* 初始隐藏内容 */
+.hidden {
+    display: none;
+}
+
+/* 弹窗样式 */
+.popup {
+    display: none; /* 初始隐藏 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    flex-direction: column; /* 使内容垂直排列 */
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px; /* 限制弹窗的最大宽度 */
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* 图片容器 */
+.popup-image-container {
+    width: 100%;
+    max-height: 400px; /* 限制最大高度 */
+    overflow-y: auto;  /* 使图片可以上下滚动 */
+    margin-bottom: 15px;
+}
+
+/* 弹窗中的图片 */
+.popup-image {
+    width: 100%;
+    height: auto; /* 让图片根据宽度自适应高度 */
+    object-fit: contain; /* 保持图片比例 */
+    border-radius: 8px;
+}
+
+.item-title, .item-description, .item-contact {
+    margin-top: 10px;
+    color: #333;
+    word-wrap: break-word; /* 自动换行 */
+    overflow-wrap: break-word; /* 防止文本溢出 */
+    white-space: normal; /* 确保文本换行 */
+}
+
+/* 关闭按钮 */
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-popup:hover {
+    color: #f4c62b;
+}
+
+.publish-receipt-btn {
+    margin-top: 10px;
+    background-color: #f4c62b;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: block; /* 转为块级元素 */
+    margin-left: auto; /* 左侧自动外边距 */
+    margin-right: auto; /* 右侧自动外边距 */
+}
+
+.publish-receipt-btn:hover {
+    background-color: #f3c222;
+    transform: scale(1.05);
+}

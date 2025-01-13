@@ -1,0 +1,20 @@
+2025-01-01 22:57:33,013 - INFO - Episode 10/100, Total Reward: 14, Total Clear Lines:13, Total Blocks:62, Epsilon: 0.00
+2025-01-01 22:57:37,601 - INFO - Episode 20/100, Total Reward: 3, Total Clear Lines:3, Total Blocks:26, Epsilon: 0.00
+2025-01-01 22:57:41,654 - INFO - Episode 30/100, Total Reward: 3, Total Clear Lines:3, Total Blocks:30, Epsilon: 0.00
+2025-01-01 22:57:46,434 - INFO - Episode 40/100, Total Reward: 13, Total Clear Lines:13, Total Blocks:71, Epsilon: 0.00
+2025-01-01 22:57:51,102 - INFO - Episode 50/100, Total Reward: 13, Total Clear Lines:13, Total Blocks:66, Epsilon: 0.00
+2025-01-01 22:57:56,910 - INFO - Episode 60/100, Total Reward: 16, Total Clear Lines:16, Total Blocks:78, Epsilon: 0.00
+2025-01-01 22:58:03,042 - INFO - Episode 70/100, Total Reward: 19, Total Clear Lines:18, Total Blocks:85, Epsilon: 0.00
+2025-01-01 22:58:08,892 - INFO - Episode 80/100, Total Reward: 8, Total Clear Lines:8, Total Blocks:58, Epsilon: 0.00
+2025-01-01 22:58:14,621 - INFO - Episode 90/100, Total Reward: 7, Total Clear Lines:7, Total Blocks:54, Epsilon: 0.00
+2025-01-01 22:58:20,713 - INFO - Episode 100/100, Total Reward: 18, Total Clear Lines:17, Total Blocks:75, Epsilon: 0.00
+2025-01-01 22:58:20,713 - INFO - Episode 1 - 10, Average Reward:10.266000000000002
+2025-01-01 22:58:20,713 - INFO - Episode 11 - 20, Average Reward:8.139000000000001
+2025-01-01 22:58:20,713 - INFO - Episode 21 - 30, Average Reward:3.276
+2025-01-01 22:58:20,713 - INFO - Episode 31 - 40, Average Reward:6.662999999999999
+2025-01-01 22:58:20,715 - INFO - Episode 41 - 50, Average Reward:6.619
+2025-01-01 22:58:20,715 - INFO - Episode 51 - 60, Average Reward:11.636000000000001
+2025-01-01 22:58:20,715 - INFO - Episode 61 - 70, Average Reward:13.452000000000002
+2025-01-01 22:58:20,715 - INFO - Episode 71 - 80, Average Reward:12.207000000000003
+2025-01-01 22:58:20,715 - INFO - Episode 81 - 90, Average Reward:11.748000000000001
+2025-01-01 22:58:20,715 - INFO - Episode 91 - 100, Average Reward:13.548000000000002

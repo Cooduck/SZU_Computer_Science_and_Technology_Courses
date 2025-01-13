@@ -1,0 +1,110 @@
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f4c62b;
+}
+
+/* 添加返回按钮样式 */
+.back-button {
+    margin-top: 10px;
+}
+
+.back-link {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f4c62b;
+    color: #fff;
+    margin-left: 520px
+}
+
+.back-link:hover {
+    background-color: #d4a62b;
+}
+
+/* 主体内容样式 */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* 发布列表样式 */
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.post-details {
+    text-align: left;
+}
+
+.post-details p {
+    margin: 5px 0;
+}
+
+/* 分页导航 */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #f7e305;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination .current-page {
+    background-color: #f7e305;
+    color: white;
+    border-color: #f7e305;
+}

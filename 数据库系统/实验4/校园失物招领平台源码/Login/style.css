@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* 容器居中并给其一个宽度 */
+.container {
+    width: 500px;
+    padding: 20px;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative; /* 为了定位返回按钮 */
+}
+
+/* 按钮的居中样式 */
+.layui-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.layui-col-md12 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* 卡片和表单内容居中 */
+.layui-card {
+    margin-top: 20px;
+}
+
+.layui-input-block input[type="submit"] {
+    position: absolute;  /* 启用绝对定位 */
+    top: 10px;           /* 设置按钮的顶部距离 */
+    left: 35%;           /* 设置按钮的左侧距离为容器的 50% */
+    transform: translateX(-50%); /* 通过 translateX(-50%) 完全居中 */
+}
+
+/* 隐藏元素的样式 */
+.hidden {
+    display: none;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* 返回按钮定位到左上角 */
+#back {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}

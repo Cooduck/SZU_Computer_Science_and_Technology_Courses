@@ -1,0 +1,9 @@
+{
+    "cmake.debugConfig": {
+        "cwd": "${workspaceFolder}"
+    },
+    "files.associations": {
+        "ostream": "cpp",
+        "new": "cpp"
+    }
+}

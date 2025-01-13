@@ -1,0 +1,136 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* 顶部导航栏 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    color: #f4c62b;
+}
+
+.nav-links a {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #ffcc00; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 5px 0;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4c62b;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 发布栏 */
+h2 { 
+    text-align: center; 
+    color: #333; 
+}
+form { 
+    width: 60%; 
+    margin: 0 auto; 
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label { 
+    display: block; 
+    margin-top: 10px; 
+    font-weight: bold; 
+    color: #555;
+}
+input, select, textarea { 
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+textarea { 
+    resize: vertical; 
+}
+
+.hidden { display: none; }
+
+#popup {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.button-container {
+    display: flex; /* 使用弹性布局 */
+    justify-content: center; /* 子元素水平居中 */
+    align-items: center; /* 子元素垂直居中（可选） */
+    margin: 0 auto; /* 容器本身水平居中 */
+    text-align: center; /* 确保文本对齐在容器中心 */
+}
+

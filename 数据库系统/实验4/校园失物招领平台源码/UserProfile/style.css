@@ -1,0 +1,97 @@
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f4c62b;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f4c62b;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4a62b;
+}
+
+.button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f4c62b;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #d4a62b;
+}
+
+/* 按钮容器，设置为垂直布局 */
+.btn-container {
+    display: flex;
+    flex-direction: column; /* 垂直方向排列 */
+    align-items: center; /* 居中对齐 */
+    margin-top: 20px;
+    gap: 10px; /* 设置按钮之间的间距 */
+}
+
+.popup {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50; /* 成功为绿色 */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* 默认隐藏 */
+    z-index: 1000;
+}
+
+.popup.failure {
+    background-color: #f44336; /* 失败为红色 */
+}

@@ -1,0 +1,3 @@
+C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验1.1/实验1.1_参考代码/ʵ��1.1_�ο�����/build/CMakeFiles/main.dir
+C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验1.1/实验1.1_参考代码/ʵ��1.1_�ο�����/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验1.1/实验1.1_参考代码/ʵ��1.1_�ο�����/build/CMakeFiles/ZERO_CHECK.dir

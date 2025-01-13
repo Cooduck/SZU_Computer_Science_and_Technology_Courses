@@ -1,0 +1,99 @@
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f4c62b;
+}
+
+/* 添加返回按钮样式 */
+.back-button {
+    margin-top: 10px;
+}
+
+.back-link {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f4c62b;
+    color: #fff;
+    margin-left: 520px
+}
+
+.back-link:hover {
+    background-color: #d4a62b;
+}
+
+/* 主体内容样式 */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* 发布列表样式 */
+.user-details p{
+    display: flex;
+    align-items: center;  /* 内容垂直居中 */
+    margin: 5px 0;        /* 上下间距 */
+    word-wrap: break-word; /* 长单词换行 */
+    word-break: break-word; /* 确保长内容换行 */
+    white-space: pre-wrap; /* 保留换行符并自动换行 */
+}
+
+/* 发布列表样式 */
+.lost-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lost-item {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lost-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.lost-details {
+    text-align: left;
+}
+
+.lost-details p {
+    width: 400px;
+    margin: 5px 0;
+    word-wrap: break-word; /* 长单词换行 */
+    word-break: break-word; /* 确保长内容换行 */
+    white-space: pre-wrap; /* 保留换行符并自动换行 */
+}

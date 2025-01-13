@@ -1,0 +1,10 @@
+^C:\USERS\12569\DESKTOP\资料\SZU课\计算机图形学\实验一\实验1.1\实验1.1_参考代码\ʵ��1.1_�Ο�����\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验1.1/实验1.1_参考代码/ʵ��1.1_�ο����� -BC:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验1.1/实验1.1_参考代码/ʵ��1.1_�ο�����/build --check-stamp-file C:/Users/12569/Desktop/资料/szu课/计算机图形学/实验一/实验1.1/实验1.1_参考代码/ʵ��1.1_�ο�����/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

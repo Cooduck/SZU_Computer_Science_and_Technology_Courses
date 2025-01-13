@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\12569\Desktop\资料\szu课\计算机图形学\实验一\实验一\2022150176_简校滨_实验一\code\build\CMakeFiles\7d32fd2d0e46f723120f2e7a3158d91a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{941195ED-094B-3AD7-878B-C6A373FA2B47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

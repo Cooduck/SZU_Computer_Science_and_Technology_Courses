@@ -1,0 +1,248 @@
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f4c62b;
+}
+
+.hidden {
+    display: none;
+}
+
+/* 添加返回按钮样式 */
+.back-button {
+    margin-top: 10px;
+}
+
+.back-link {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f4c62b;
+    color: #fff;
+    margin-left: 520px
+}
+
+.back-link:hover {
+    background-color: #d4a62b;
+}
+
+/* 添加失信用户按钮样式 */
+.add-dishonest-user-btn {
+    background-color: #f4c62b; /* 按钮背景颜色 */
+    color: white; /* 字体颜色 */
+    border: none; /* 去掉边框 */
+    padding: 8px 10px; /* 内边距 */
+    border-radius: 10px; /* 圆角 */
+    font-size: 20px; /* 字体大小 */
+    cursor: pointer; /* 鼠标悬停变为手型 */
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+}
+
+.add-dishonest-user-btn:hover {
+    background-color: #d4a62b; /* 鼠标悬停时的背景颜色 */
+}
+
+.add-dishonest-user-btn:active {
+    background-color: #f4c62b; /* 点击时的背景颜色 */
+    transform: scale(0.98); /* 点击时略微缩小 */
+}
+
+
+/* 发布列表样式 */
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-item {
+    margin-left: 585px;
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-details {
+    text-align: left;
+}
+
+.post-details p {
+    width: 400px;
+    margin: 5px 0;
+    word-wrap: break-word; /* 长单词换行 */
+    word-break: break-word; /* 确保长内容换行 */
+    white-space: pre-wrap; /* 保留换行符并自动换行 */
+}
+
+.no-data-message {
+    display: flex; /* 使用 flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 60vh; /* 设置一个高度范围，可以根据页面调整 */
+    font-size: 1.5rem; /* 调整字体大小 */
+    color: #666; /* 设置文本颜色 */
+    text-align: center; /* 居中对齐文本 */
+}
+
+
+/* 分页导航 */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #f7e305;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination .current-page {
+    background-color: #f7e305;
+    color: white;
+    border-color: #f7e305;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 全局样式重置 */
+body, h2, p, label, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 模态框内容区域 */
+.modal-content {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px; /* 弹窗宽度 */
+    max-width: 90%; /* 最大宽度为视窗的90% */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out; /* 弹窗淡入动画 */
+}
+
+/* 模态框标题 */
+.modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333333;
+}
+
+/* 表单标签 */
+label {
+    display: block; /* 标签单独一行 */
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+/* 输入框、下拉菜单和文本域 */
+#user-select, #blacked-reason {
+    width: 100%; /* 全宽 */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+}
+
+#blacked-reason {
+    height: 100px; /* 文本域高度 */
+    resize: none; /* 禁止拖动调整大小 */
+}
+
+/* 按钮区域 */
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* 按钮通用样式 */
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* 确定按钮 */
+button[type="submit"] {
+    background-color: #4CAF50; /* 绿色 */
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* 取消按钮 */
+#cancel-modal {
+    background-color: #f44336; /* 红色 */
+    color: white;
+}
+
+#cancel-modal:hover {
+    background-color: #e53935;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
